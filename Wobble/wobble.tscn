@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cru0wtkk1ceqr"]
+
+[ext_resource type="Texture2D" uid="uid://by3qrnltftuh4" path="res://wobble.png" id="1_uljkh"]
+
+[node name="Wobble" type="Sprite2D" unique_id=1568001779]
+position = Vector2(552, 311)
+scale = Vector2(0.2905263, 0.29052633)
+texture = ExtResource("1_uljkh")
