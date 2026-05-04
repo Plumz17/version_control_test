@@ -21,8 +21,3 @@ material = SubResource("ShaderMaterial_h2yge")
 position = Vector2(438, 585.0863)
 scale = Vector2(0.5747369, 0.5747369)
 texture = ExtResource("1_ig7tw")
-
-[node name="Icon" type="Sprite2D" parent="." unique_id=1524363581]
-modulate = Color(0, 1, 0, 1)
-position = Vector2(895, 308)
-texture = ExtResource("3_h2yge")
