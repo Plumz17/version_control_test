@@ -1,8 +1,20 @@
 [gd_scene format=3 uid="uid://cru0wtkk1ceqr"]
 
+[ext_resource type="Shader" uid="uid://dov0pt7uo45t" path="res://wobble.gdshader" id="1_8w8dn"]
 [ext_resource type="Texture2D" uid="uid://by3qrnltftuh4" path="res://wobble.png" id="1_uljkh"]
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6cbr3"]
+shader = ExtResource("1_8w8dn")
+shader_parameter/speed = 1.0
+shader_parameter/intensity = 0.1
+shader_parameter/frequency = 30.0
+shader_parameter/falloff = 3.0
+shader_parameter/time_scale = 2.0
+shader_parameter/pivot = Vector2(0.5, 0)
+shader_parameter/offset = Vector2(0, -1)
+
 [node name="Wobble" type="Sprite2D" unique_id=1568001779]
-position = Vector2(552, 311)
-scale = Vector2(0.2905263, 0.29052633)
+material = SubResource("ShaderMaterial_6cbr3")
+position = Vector2(414, 611)
+scale = Vector2(0.62526315, 0.6252632)
 texture = ExtResource("1_uljkh")
